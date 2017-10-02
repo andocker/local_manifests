@@ -3,7 +3,7 @@
 
   <remote name="andocker"
           fetch="https://github.com/andocker"
-          revision="omeisaurus" />
+          revision="omeisaurus-8.0.0_r1" />
 
   <!-- override AOSP repositories -->
   <!-- andocker repositories -->
