@@ -19,5 +19,12 @@
   </project>
 
   <!-- andocker repositories -->
+  <project path="device/andocker/common" name="device_andocker_common" groups="pdk" remote="andocker" revision="omeisaurus" />
+  <project path="device/andocker/andocker-arm64" name="device_andocker_andocker-arm64" groups="pdk" remote="andocker" revision="omeisaurus" />
+  <project path="device/andocker/andocker-armv7-a-neon" name="device_andocker_andocker-armv7-a-neon" groups="pdk" remote="andocker" revision="omeisaurus" />
+  <project path="device/andocker/andocker-mips" name="device_andocker_andocker-mips" groups="pdk" remote="andocker" revision="omeisaurus" />
+  <project path="device/andocker/andocker-mips64" name="device_andocker_andocker-mips64" groups="pdk" remote="andocker" revision="omeisaurus" />
+  <project path="device/andocker/andocker-x86" name="device_andocker_andocker-x86" groups="pdk" remote="andocker" revision="omeisaurus" />
+  <project path="device/andocker/andocker-x86_64" name="device_andocker_andocker-x86_64" groups="pdk" remote="andocker" revision="omeisaurus" />
 
 </manifest>
