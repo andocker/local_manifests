@@ -18,6 +18,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="andocker">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- andocker repositories -->
   <project path="device/andocker/common" name="device_andocker_common" groups="pdk" remote="andocker" revision="omeisaurus" />
   <project path="device/andocker/andocker-arm64" name="device_andocker_andocker-arm64" groups="pdk" remote="andocker" revision="omeisaurus" />
