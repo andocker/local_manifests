@@ -30,6 +30,12 @@
   <remove-project name="platform/system/core" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="andocker" />
 
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="andocker" />
+
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="andocker" />
+
   <!-- andocker repositories -->
   <project path="device/andocker/build" name="device_andocker_build" groups="pdk" remote="andocker" revision="omeisaurus" />
   <project path="device/andocker/common" name="device_andocker_common" groups="pdk" remote="andocker" revision="omeisaurus" />
