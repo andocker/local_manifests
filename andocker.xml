@@ -7,6 +7,9 @@
 
   <!-- override AOSP repositories -->
 
+  <remove-project name="device/generic/goldfish" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="andocker" />
+
   <remove-project name="platform/bionic" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="andocker" />
 
