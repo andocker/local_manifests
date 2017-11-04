@@ -31,6 +31,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="andocker" />
 
   <!-- andocker repositories -->
+  <project path="device/andocker/build" name="device_andocker_build" groups="pdk" remote="andocker" revision="omeisaurus" />
   <project path="device/andocker/common" name="device_andocker_common" groups="pdk" remote="andocker" revision="omeisaurus" />
   <project path="device/andocker/andocker-arm64" name="device_andocker_andocker-arm64" groups="pdk" remote="andocker" revision="omeisaurus" />
   <project path="device/andocker/andocker-armv7-a-neon" name="device_andocker_andocker-armv7-a-neon" groups="pdk" remote="andocker" revision="omeisaurus" />
