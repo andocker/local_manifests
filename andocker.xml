@@ -7,6 +7,9 @@
 
   <!-- override AOSP repositories -->
 
+  <remove-project name="device/generic/goldfish" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="andocker" />
+
   <remove-project name="platform/bionic" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="andocker" />
 
@@ -26,6 +29,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="andocker" />
 
   <remove-project name="platform/system/core" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="andocker" />
