@@ -27,8 +27,14 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="andocker" />
+
   <remove-project name="platform/system/core" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="andocker" />
+
+  <remove-project name="platform/system/hwservicemanager" />
+  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" groups="pdk" remote="andocker" />
 
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="andocker" />
